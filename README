@@ -38,6 +38,8 @@ THis will load metro bundler and a tab in your browser
 
 NOTE: on my machine the metro bundler loaded on http://localhost:19002/ but the port may vary on your system
 
+
+
 Open android studio (you can run on an ios simulator but you need to have xcode installed)
 
 click on configure->AVD Manager if you don't have any virtual devices configured you can create one 
