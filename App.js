@@ -13,7 +13,7 @@ import { Client, Configuration } from 'rollbar-react-native'
 
 
 let myID = generatetoken();
-let myToken = '<rollbar_token>';
+let myToken = '';
 let transID = randomIntFromInterval(10000, 20000);
 let myString = stringGen(10);
 

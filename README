@@ -1,0 +1,51 @@
+Install expo cli 
+
+make sure you are running node 12.0 or higher
+
+node -v 
+
+install expo cli 
+
+npm i -g expo-cli 
+
+install expo client on your phone 
+
+we can run our app on a physical device 
+
+Create our expo project 
+
+expo init <yourapp>
+
+select blank (managed workflow) expo is creating everything behind the scenes 
+
+when complete open your app folder I used VSS code 
+
+Open the App.js file 
+
+Go to this line in the code 
+
+export default function App() {
+
+and change the text here to say this:
+
+<Text>React Native Test</Text>
+
+in the terminal window run 
+
+npm start 
+
+THis will load metro bundler and a tab in your browser 
+
+NOTE: on my machine the metro bundler loaded on http://localhost:19002/ but the port may vary on your system
+
+Open android studio (you can run on an ios simulator but you need to have xcode installed)
+
+click on configure->AVD Manager if you don't have any virtual devices configured you can create one 
+
+I always pick the latest one which in my case was a Pixel 3a API 28. 3a has the google play store.
+
+Under the tab actions you can click the green button to start the emulator 
+
+Now go back to the web page that loaded the metro bundler and click on 'Run on Android Device/emulator'
+
+Follow the rollbar steps to add rollbar to your react native app.
